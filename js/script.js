@@ -10,7 +10,7 @@ createApp({
         return {
             message: 'Hello Vue!',
             titolo: "Mamma mia che bellezza!",
-            classeMainTitle: "title text-primary text-center"
+            classeMainTitle: "title text-primary text-center pt-3 "
         }
     }
 }).mount('#app')
