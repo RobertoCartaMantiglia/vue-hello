@@ -6,9 +6,11 @@
 const { createApp } = Vue
 
 createApp({
-data() {
-    return {
-    message: 'Hello Vue!'
+    data() {
+        return {
+            message: 'Hello Vue!',
+            titolo: "Mamma mia che bellezza!",
+            classeMainTitle: "title text-primary text-center"
+        }
     }
-}
 }).mount('#app')
