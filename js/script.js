@@ -12,7 +12,8 @@ createApp({
             message: 'Hello Vue!',
             titolo: "Mamma mia che bellezza!",
             classeMainTitle: "title text-primary text-center pt-3",
-            image: "url(https://unsplash.it/300/300?image=29)" 
+            image: "https://unsplash.it/300/300?image=29", 
+            divClass: "text-center"
         }
     }
 }).mount('#app')
