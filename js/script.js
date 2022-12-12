@@ -13,7 +13,9 @@ createApp({
             titolo: "Mamma mia che bellezza!",
             classeMainTitle: "title text-primary text-center pt-3",
             image: "https://unsplash.it/300/300?image=29", 
-            divClass: "text-center"
+            imageClass: "w-75",
+            divClass: "text-center pt-2",
+
         }
     }
 }).mount('#app')
