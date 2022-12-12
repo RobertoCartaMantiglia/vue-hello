@@ -5,12 +5,14 @@
 
 const { createApp } = Vue
 
+
 createApp({
     data() {
         return {
             message: 'Hello Vue!',
             titolo: "Mamma mia che bellezza!",
-            classeMainTitle: "title text-primary text-center pt-3 "
+            classeMainTitle: "title text-primary text-center pt-3",
+            image: "url(https://unsplash.it/300/300?image=29)" 
         }
     }
 }).mount('#app')
